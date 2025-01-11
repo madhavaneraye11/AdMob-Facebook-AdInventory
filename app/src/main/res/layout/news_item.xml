@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/newsItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/marginStart"
+    android:layout_marginEnd="@dimen/marginStart"
+    android:padding="@dimen/padding">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/newsImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintWidth="@dimen/max_height_width"
+        app:layout_constraintHeight="@dimen/max_height_width"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="@dimen/margin"
+        app:shapeAppearanceOverlay="@style/CircularImage"
+        app:layout_constraintDimensionRatio="1:1"
+        android:src="@drawable/ic_launcher_background"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/view"/>
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/title_size"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginStart="@dimen/marginStart"
+        android:layout_marginTop="@dimen/margin"
+        app:layout_constraintStart_toEndOf="@+id/newsImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/news_title" />
+
+    <TextView
+        android:id="@+id/authorTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginStart="@dimen/marginStart"
+        app:layout_constraintStart_toEndOf="@+id/newsImageView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView"
+        tools:text="@string/author_name" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#E93C3C3C"
+        android:layout_marginTop="@dimen/marginStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

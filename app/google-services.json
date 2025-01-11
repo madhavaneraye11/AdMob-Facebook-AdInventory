@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "880525678691",
+    "firebase_url": "https://video-view-f8d3d-default-rtdb.firebaseio.com",
+    "project_id": "video-view-f8d3d",
+    "storage_bucket": "video-view-f8d3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880525678691:android:41cd8f5159ca8fa1f90056",
+        "android_client_info": {
+          "package_name": "com.adsprovider.adinventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880525678691-dhhc29q1ibnqb3t8p8l06p7s9i1u05t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUjKCNdIMc035pyaNPN-6S5jGH4gBJlpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880525678691-dhhc29q1ibnqb3t8p8l06p7s9i1u05t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880525678691:android:6b6ffcf93068409ef90056",
+        "android_client_info": {
+          "package_name": "com.adsprovider.combineadinventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880525678691-dhhc29q1ibnqb3t8p8l06p7s9i1u05t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUjKCNdIMc035pyaNPN-6S5jGH4gBJlpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880525678691-dhhc29q1ibnqb3t8p8l06p7s9i1u05t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880525678691:android:5e59f942c6b60129f90056",
+        "android_client_info": {
+          "package_name": "com.spam.maddy.videoview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880525678691-dhhc29q1ibnqb3t8p8l06p7s9i1u05t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUjKCNdIMc035pyaNPN-6S5jGH4gBJlpU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880525678691-dhhc29q1ibnqb3t8p8l06p7s9i1u05t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

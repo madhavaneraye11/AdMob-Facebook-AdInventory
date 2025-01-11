@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">4dp</dimen>
+    <dimen name="marginStart">10dp</dimen>
+    <dimen name="padding">4dp</dimen>
+    <dimen name="title_size">14sp</dimen>
+    <dimen name="author_size">14sp</dimen>
+    <dimen name="max_height_width">60dp</dimen>
+</resources>
